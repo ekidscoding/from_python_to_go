@@ -12,6 +12,14 @@ theme:
   features:
     - content.code.copy
     - content.tabs.link
+    - toc.integrate
+    - toc.follow
+    - navigation.top
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
 
 markdown_extensions:
   - attr_list
