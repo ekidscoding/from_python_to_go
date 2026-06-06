@@ -1,0 +1,13 @@
+def helper(value):
+    text = f"Привіт, {value}!"
+    return text
+
+
+def main():
+    val1 = "Світ"
+    result = helper(val1)
+    print(result)
+
+
+if __name__ == "__main__":
+    main()

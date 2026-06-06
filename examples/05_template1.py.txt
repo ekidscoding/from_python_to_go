@@ -1,0 +1,7 @@
+def main():
+    result = "Привіт, Світе!"
+    print(result)
+
+
+if __name__ == "__main__":
+    main()

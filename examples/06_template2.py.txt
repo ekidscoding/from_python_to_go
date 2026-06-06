@@ -1,0 +1,11 @@
+def helper():
+    return "Привіт, Світе!"
+
+
+def main():
+    result = helper()
+    print(result)
+
+
+if __name__ == "__main__":
+    main()

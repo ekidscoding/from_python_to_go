@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+func helper(value string) string {
+    text := fmt.Sprintf("Привіт, %v!", value)
+	return text
+}
+
+func main() {
+	val1 := "Світ"
+	result := helper(val1)
+	fmt.Println(result)
+}

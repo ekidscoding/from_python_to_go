@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func helper(){
+    return "Привіт, Світе!"
+}
+
+func main() {
+    result := helper()
+	fmt.Println(result)
+}
